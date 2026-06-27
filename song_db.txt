@@ -1,0 +1,505 @@
++-----+---------------------------------------------------------+--------------------------------------------+---------------+
+| id  | title                                                   | artist                                     | genre         |
++-----+---------------------------------------------------------+--------------------------------------------+---------------+
+|   1 | Blinding Lights                                         | The Weeknd                                 | Pop           |
+|   2 | Shape of You                                            | Ed Sheeran                                 | Pop           |
+|   3 | Starboy                                                 | The Weeknd & Daft Punk                     | Pop           |
+|   4 | Sweater Weather                                         | The Neighbourhood                          | Rock          |
+|   5 | Someone You Loved                                       | Lewis Capaldi                              | Pop           |
+|   6 | As It Was                                               | Harry Styles                               | Pop           |
+|   7 | Sunflower                                               | Post Malone & Swae Lee                     | Hip-hop       |
+|   8 | One Dance                                               | Drake ft. Wizkid & Kyla                    | Hip-hop       |
+|   9 | Perfect                                                 | Ed Sheeran                                 | Pop           |
+|  10 | Stay                                                    | The Kid Laroi & Justin Bieber              | Pop           |
+|  11 | Believer                                                | Imagine Dragons                            | Rock          |
+|  12 | Heat Waves                                              | Glass Animals                              | Alternative   |
+|  13 | Lovely                                                  | Billie Eilish & Khalid                     | Pop           |
+|  14 | Closer                                                  | The Chainsmokers & Halsey                  | EDM           |
+|  15 | The Night We Met                                        | Lord Huron                                 | Indie         |
+|  16 | I Wanna Be Yours                                        | Arctic Monkeys                             | Rock          |
+|  17 | Say You Won't Let Go                                    | James Arthur                               | Pop           |
+|  18 | Yellow                                                  | Coldplay                                   | Rock          |
+|  19 | Something Just Like This                                | The Chainsmokers & Coldplay                | EDM           |
+|  20 | Riptide                                                 | Vance Joy                                  | Folk          |
+|  21 | Another Love                                            | Tom Odell                                  | Pop           |
+|  22 | Dance Monkey                                            | Tones and I                                | Pop           |
+|  23 | Birds of a Feather                                      | Billie Eilish                              | Pop           |
+|  24 | Rockstar                                                | Post Malone & 21 Savage                    | Hip-hop       |
+|  25 | Take Me to Church                                       | Hozier                                     | Alternative   |
+|  26 | Die With a Smile                                        | Lady Gaga & Bruno Mars                     | Pop           |
+|  27 | Counting Stars                                          | OneRepublic                                | Pop           |
+|  28 | Photograph                                              | Ed Sheeran                                 | Pop           |
+|  29 | Señorita                                                | Shawn Mendes & Camila Cabello              | Pop           |
+|  30 | Cruel Summer                                            | Taylor Swift                               | Pop           |
+|  31 | Watermelon Sugar                                        | Harry Styles                               | Pop           |
+|  32 | Can't Hold Us                                           | Macklemore & Ryan Lewis (feat. Ray Dalton) | Hip-hop       |
+|  33 | Every Breath You Take                                   | The Police                                 | Rock          |
+|  34 | Don't Start Now                                         | Dua Lipa                                   | Pop           |
+|  35 | Viva La Vida                                            | Coldplay                                   | Rock          |
+|  36 | Die for You                                             | The Weeknd                                 | Pop           |
+|  37 | Just the Way You Are                                    | Bruno Mars                                 | Pop           |
+|  38 | Lucid Dreams                                            | Juice Wrld                                 | Rap           |
+|  39 | Circles                                                 | Post Malone                                | Hip-hop       |
+|  40 | Goosebumps                                              | Travis Scott & Kendrick Lamar              | Hip-hop       |
+|  41 | Bohemian Rhapsody                                       | Queen                                      | Rock          |
+|  42 | Love Yourself                                           | Justin Bieber                              | Pop           |
+|  43 | Iris                                                    | Goo Goo Dolls                              | Rock          |
+|  44 | Thinking Out Loud                                       | Ed Sheeran                                 | Pop           |
+|  45 | Shallow                                                 | Lady Gaga & Bradley Cooper                 | Pop           |
+|  46 | Locked Out of Heaven                                    | Bruno Mars                                 | Pop           |
+|  47 | Wake Me Up                                              | Avicii                                     | EDM           |
+|  48 | God's Plan                                              | Drake                                      | Hip-hop       |
+|  49 | All of Me                                               | John Legend                                | R&B           |
+|  50 | In the End                                              | Linkin Park                                | Rock          |
+|  51 | When I Was Your Man                                     | Bruno Mars                                 | Pop           |
+|  52 | That's What I Like                                      | Bruno Mars                                 | Pop           |
+|  53 | Mr. Brightside                                          | The Killers                                | Rock          |
+|  54 | Thunder                                                 | Imagine Dragons                            | Rock          |
+|  55 | Without Me                                              | Eminem                                     | Rap           |
+|  56 | Demons                                                  | Imagine Dragons                            | Rock          |
+|  57 | The Hills                                               | The Weeknd                                 | Pop           |
+|  58 | Stressed Out                                            | Twenty One Pilots                          | Alternative   |
+|  59 | Bad Guy                                                 | Billie Eilish                              | Pop           |
+|  60 | Do I Wanna Know?                                        | Arctic Monkeys                             | Rock          |
+|  61 | HUMBLE.                                                 | Kendrick Lamar                             | Hip-hop       |
+|  62 | Let Me Love You                                         | DJ Snake & Justin Bieber                   | EDM           |
+|  63 | No Role Modelz                                          | J. Cole                                    | Hip-hop       |
+|  64 | All the Stars                                           | Kendrick Lamar & SZA                       | Hip-hop       |
+|  65 | Lose Yourself                                           | Eminem                                     | Rap           |
+|  66 | Unforgettable                                           | French Montana & Swae Lee                  | Hip-hop       |
+|  67 | See You Again                                           | Tyler, The Creator & Kali Uchis            | Hip-hop       |
+|  68 | Flowers                                                 | Miley Cyrus                                | Pop           |
+|  69 | Seven                                                   | Jung Kook & Latto                          | Pop           |
+|  70 | Let Her Go                                              | Passenger                                  | Indie         |
+|  71 | Espresso                                                | Sabrina Carpenter                          | Pop           |
+|  72 | Treat You Better                                        | Shawn Mendes                               | Pop           |
+|  73 | Drivers License                                         | Olivia Rodrigo                             | Pop           |
+|  74 | 7 Rings                                                 | Ariana Grande                              | Pop           |
+|  75 | Smells Like Teen Spirit                                 | Nirvana                                    | Rock          |
+|  76 | Kill Bill                                               | SZA                                        | R&B           |
+|  77 | Don't Stop Believin'                                    | Journey                                    | Rock          |
+|  78 | The Scientist                                           | Coldplay                                   | Rock          |
+|  79 | Beautiful Things                                        | Benson Boone                               | Pop           |
+|  80 | Sorry                                                   | Justin Bieber                              | Pop           |
+|  81 | There's Nothing Holdin' Me Back                         | Shawn Mendes                               | Pop           |
+|  82 | Wonderwall                                              | Oasis                                      | Rock          |
+|  83 | Respect                                                 | Aretha Franklin                            | R&B           |
+|  84 | Imagine                                                 | John Lennon                                | Pop           |
+|  85 | What's Going On                                         | Marvin Gaye                                | R&B           |
+|  86 | Good Vibrations                                         | The Beach Boys                             | Pop           |
+|  87 | Johnny B. Goode                                         | Chuck Berry                                | Rock          |
+|  88 | Hey Jude                                                | The Beatles                                | Pop           |
+|  89 | Starboy                                                 | The Weeknd & Daft Punk                     | Pop           |
+|  90 | Fight the Power                                         | Public Enemy                               | Hip-hop       |
+|  91 | A Change Is Gonna Come                                  | Sam Cooke                                  | Soul          |
+|  92 | Strawberry Fields Forever                               | The Beatles                                | Pop           |
+|  93 | Get Ur Freak On                                         | Missy Elliott                              | Hip-hop       |
+|  94 | Dreams                                                  | Fleetwood Mac                              | Rock          |
+|  95 | Hey Ya!                                                 | Outkast                                    | Hip-hop       |
+|  96 | Like a Rolling Stone                                    | Bob Dylan                                  | Folk/Rock     |
+|  97 | Billie Jean                                             | Michael Jackson                            | Pop           |
+|  98 | I Want to Hold Your Hand                                | The Beatles                                | Pop           |
+|  99 | Hotel California                                        | Eagles                                     | Rock          |
+| 100 | Thriller                                                | Michael Jackson                            | Pop           |
+| 101 | Purple Rain                                             | Prince                                     | Pop           |
+| 102 | God Only Knows                                          | The Beach Boys                             | Pop           |
+| 103 | Yesterday                                               | The Beatles                                | Pop           |
+| 104 | No Woman, No Cry                                        | Bob Marley & The Wailers                   | Reggae        |
+| 105 | Stairway to Heaven                                      | Led Zeppelin                               | Rock          |
+| 106 | Hello (Lionel Richie)                                   | Lionel Richie                              | R&B           |
+| 107 | Bad (Michael Jackson)                                   | Michael Jackson                            | Pop           |
+| 108 | Like a Prayer                                           | Madonna                                    | Pop           |
+| 109 | Remember the Time                                       | Michael Jackson                            | Pop           |
+| 110 | Halo (Beyoncé)                                          | Beyoncé                                    | R&B           |
+| 111 | Rolling in the Deep                                     | Adele                                      | Pop           |
+| 112 | Hello (Adele)                                           | Adele                                      | Pop           |
+| 113 | Toxic                                                   | Britney Spears                             | Pop           |
+| 114 | Single Ladies (Put a Ring on It)                        | Beyoncé                                    | R&B           |
+| 115 | WAP                                                     | Cardi B ft. Megan Thee Stallion            | Rap           |
+| 116 | Juicy (Notorious B.I.G.)                                | Notorious B.I.G.                           | Rap           |
+| 117 | Lose Yourself (Eminem)                                  | Eminem                                     | Rap           |
+| 118 | In da Club                                              | 50 Cent                                    | Rap           |
+| 119 | Hips Don?t Lie                                          | Shakira ft. Wyclef Jean                    | Pop/Latin     |
+| 120 | Gasolina                                                | Daddy Yankee                               | Reggaeton     |
+| 121 | Despacito                                               | Luis Fonsi ft. Daddy Yankee                | Latin/Pop     |
+| 122 | Gangnam Style                                           | PSY                                        | K-pop         |
+| 123 | Dynamite                                                | BTS                                        | Pop           |
+| 124 | Bad Romance                                             | Lady Gaga                                  | Pop           |
+| 125 | Waka Waka (This Time for Africa)                        | Shakira                                    | Pop           |
+| 126 | Bailando                                                | Enrique Iglesias                           | Latin         |
+| 127 | Closer (The Chainsmokers)                               | The Chainsmokers & Halsey                  | EDM           |
+| 128 | One More Time                                           | Daft Punk                                  | EDM           |
+| 129 | Titanium                                                | David Guetta ft. Sia                       | EDM           |
+| 130 | Take My Breath Away                                     | Berlin                                     | Pop           |
+| 131 | Everybody Wants to Rule the World                       | Tears for Fears                            | Pop           |
+| 132 | Africa                                                  | Toto                                       | Rock          |
+| 133 | Sweet Child o? Mine                                     | Guns N? Roses                              | Rock          |
+| 134 | Paradise City                                           | Guns N? Roses                              | Rock          |
+| 135 | Welcome to the Jungle                                   | Guns N? Roses                              | Rock          |
+| 136 | Hotel California (Live)                                 | Eagles                                     | Rock          |
+| 137 | Sweet Home Alabama                                      | Lynyrd Skynyrd                             | Rock          |
+| 138 | I Will Always Love You                                  | Whitney Houston                            | Pop           |
+| 139 | Jolene                                                  | Dolly Parton                               | Country       |
+| 140 | My Heart Will Go On                                     | Celine Dion                                | Pop           |
+| 141 | Like a Rolling Stone (Live)                             | Bob Dylan                                  | Folk          |
+| 142 | (I Can?t Get No) Satisfaction                           | The Rolling Stones                         | Rock          |
+| 143 | Gimme Shelter                                           | The Rolling Stones                         | Rock          |
+| 144 | Paint It Black                                          | The Rolling Stones                         | Rock          |
+| 145 | Sympathy for the Devil                                  | The Rolling Stones                         | Rock          |
+| 146 | Boogie Wonderland                                       | Earth, Wind & Fire                         | Funk/Disco    |
+| 147 | September                                               | Earth, Wind & Fire                         | Funk          |
+| 148 | Uptown Funk                                             | Mark Ronson & Bruno Mars                   | Funk          |
+| 149 | All of Me (John Legend)                                 | John Legend                                | R&B           |
+| 150 | (Leave the Door Open)                                   | Silk Sonic (Bruno Mars & Anderson .Paak)   | Soul          |
+| 151 | Just the Way You Are (Bruno Mars)                       | Bruno Mars                                 | Pop           |
+| 152 | When Doves Cry                                          | Prince                                     | Pop           |
+| 153 | Kiss (Prince)                                           | Prince                                     | Rock          |
+| 154 | Thunderstruck                                           | AC/DC                                      | Rock          |
+| 155 | Back in Black                                           | AC/DC                                      | Rock          |
+| 156 | Bohemian Rhapsody (Live)                                | Queen                                      | Rock          |
+| 157 | Another One Bites the Dust                              | Queen                                      | Rock          |
+| 158 | We Will Rock You                                        | Queen                                      | Rock          |
+| 159 | Don?t Stop Me Now                                       | Queen                                      | Rock          |
+| 160 | Velvet Underground & Nico ? ?Sweet Jane?                | Velvet Underground                         | Rock          |
+| 161 | Walk on the Wild Side                                   | Lou Reed                                   | Rock          |
+| 162 | Heroes                                                  | David Bowie                                | Rock          |
+| 163 | Space Oddity                                            | David Bowie                                | Rock          |
+| 164 | Let It Be                                               | The Beatles                                | Pop           |
+| 165 | Hey Ya! (Outkast)                                       | Outkast                                    | Hip-hop       |
+| 166 | Lose Yourself (Live)                                    | Eminem                                     | Rap           |
+| 167 | 21 Guns (Green Day)                                     | Green Day                                  | Rock          |
+| 168 | Boulevard of Broken Dreams                              | Green Day                                  | Rock          |
+| 169 | American Idiot                                          | Green Day                                  | Rock          |
+| 170 | Wake Me Up When September Ends                          | Green Day                                  | Rock          |
+| 171 | Boulevard of Broken Dreams                              | Green Day                                  | Rock          |
+| 172 | Country Roads                                           | John Denver                                | Country       |
+| 173 | Take Me Home, Country Roads                             | John Denver                                | Country       |
+| 174 | Despacito (Remix)                                       | Luis Fonsi, Daddy Yankee & Justin Bieber   | Latin         |
+| 175 | Procul Harum ? ?A Whiter Shade of Pale?                 | Procul Harum                               | Rock          |
+| 176 | Smooth Criminal                                         | Michael Jackson                            | Pop           |
+| 177 | Billie Jean (Live)                                      | Michael Jackson                            | Pop           |
+| 178 | Beat It                                                 | Michael Jackson                            | Pop           |
+| 179 | Thriller (Live)                                         | Michael Jackson                            | Pop           |
+| 180 | Billy Jean (Sunshine Re-edit)                           | Michael Jackson                            | Pop           |
+| 181 | Purple Rain (Live)                                      | Prince                                     | Pop           |
+| 182 | Let?s Dance                                             | David Bowie                                | Rock          |
+| 183 | Space Oddity (Live)                                     | David Bowie                                | Rock          |
+| 184 | Dancing Queen                                           | ABBA                                       | Pop           |
+| 185 | Mamma Mia                                               | ABBA                                       | Pop           |
+| 186 | Last Christmas                                          | Wham!                                      | Pop           |
+| 187 | Material Girl                                           | Madonna                                    | Pop           |
+| 188 | Like a Virgin                                           | Madonna                                    | Pop           |
+| 189 | Vogue (Madonna)                                         | Madonna                                    | Pop           |
+| 190 | Living on a Prayer                                      | Bon Jovi                                   | Rock          |
+| 191 | You Give Love a Bad Name                                | Bon Jovi                                   | Rock          |
+| 192 | It?s My Life                                            | Bon Jovi                                   | Rock          |
+| 193 | Bed of Roses                                            | Bon Jovi                                   | Rock          |
+| 194 | Faith (George Michael)                                  | George Michael                             | Pop           |
+| 195 | Careless Whisper                                        | George Michael                             | Pop           |
+| 196 | Wake Me Up (Avicii)                                     | Avicii                                     | EDM           |
+| 197 | Hey Brother                                             | Avicii                                     | EDM           |
+| 198 | In the Air Tonight                                      | Phil Collins                               | Pop           |
+| 199 | Against All Odds                                        | Phil Collins                               | Pop           |
+| 200 | Another Day in Paradise                                 | Phil Collins                               | Pop           |
+| 201 | Beat It (Live)                                          | Michael Jackson                            | Pop           |
+| 202 | Dirty Diana                                             | Michael Jackson                            | Pop           |
+| 203 | Black or White                                          | Michael Jackson                            | Pop           |
+| 204 | Scream (Michael & Janet)                                | Michael Jackson & Janet Jackson            | Pop           |
+| 205 | Numb (Linkin Park)                                      | Linkin Park                                | Rock          |
+| 206 | In the End (Linkin Park)                                | Linkin Park                                | Rock          |
+| 207 | Crawling (Linkin Park)                                  | Linkin Park                                | Rock          |
+| 208 | Breaking the Habit                                      | Linkin Park                                | Rock          |
+| 209 | Chop Suey!                                              | System of a Down                           | Rock          |
+| 210 | Toxicity                                                | System of a Down                           | Rock          |
+| 211 | Aerials                                                 | System of a Down                           | Rock          |
+| 212 | Mr. Tambourine Man                                      | The Byrds                                  | Folk/Rock     |
+| 213 | Mr. Tambourine Man (Dylan)                              | Bob Dylan                                  | Folk          |
+| 214 | Up on Cripple Creek                                     | The Band                                   | Rock          |
+| 215 | The Weight                                              | The Band                                   | Rock          |
+| 216 | I Heard It Through the Grapevine                        | Marvin Gaye                                | Soul          |
+| 217 | Heard It Through the Grapevine (Marvin Gaye)            | Marvin Gaye                                | Soul          |
+| 218 | Mustang Sally                                           | Wilson Pickett                             | Soul          |
+| 219 | Knock on Wood                                           | Eddie Floyd                                | Soul          |
+| 220 | Try a Little Tenderness                                 | Otis Redding                               | Soul          |
+| 221 | Sittin? On The Dock of the Bay                          | Otis Redding                               | Soul          |
+| 222 | Georgia on My Mind                                      | Ray Charles                                | Soul          |
+| 223 | What?s Going On (Live)                                  | Marvin Gaye                                | Soul          |
+| 224 | Great Balls of Fire                                     | Jerry Lee Lewis                            | Rock and Roll |
+| 225 | Blue Suede Shoes                                        | Elvis Presley                              | Rock and Roll |
+| 226 | Jailhouse Rock                                          | Elvis Presley                              | Rock and Roll |
+| 227 | Hound Dog                                               | Elvis Presley                              | Rock and Roll |
+| 228 | Heartbreak Hotel                                        | Elvis Presley                              | Rock and Roll |
+| 229 | All Shook Up                                            | Elvis Presley                              | Rock and Roll |
+| 230 | Viva Las Vegas                                          | Elvis Presley                              | Rock and Roll |
+| 231 | Suspicious Minds                                        | Elvis Presley                              | Rock          |
+| 232 | My Way                                                  | Frank Sinatra                              | Jazz          |
+| 233 | Fly Me to the Moon                                      | Frank Sinatra                              | Jazz          |
+| 234 | Come Fly with Me                                        | Frank Sinatra                              | Jazz          |
+| 235 | New York, New York                                      | Frank Sinatra                              | Jazz          |
+| 236 | What a Wonderful World                                  | Louis Armstrong                            | Jazz          |
+| 237 | Summertime (from Porgy & Bess)                          | Ella Fitzgerald                            | Jazz          |
+| 238 | Strange Fruit (Billie Holiday)                          | Billie Holiday                             | Jazz          |
+| 239 | My Funny Valentine                                      | Chet Baker                                 | Jazz          |
+| 240 | Take Five                                               | Dave Brubeck                               | Jazz          |
+| 241 | So What                                                 | Miles Davis                                | Jazz          |
+| 242 | My Favorite Things                                      | John Coltrane                              | Jazz          |
+| 243 | God Only Knows (Live)                                   | The Beach Boys                             | Pop           |
+| 244 | Surfin? USA                                             | The Beach Boys                             | Rock          |
+| 245 | Fun Fun Fun                                             | The Beach Boys                             | Rock          |
+| 246 | Good Vibrations (Live)                                  | The Beach Boys                             | Pop           |
+| 247 | Blue Bayou                                              | Roy Orbison                                | Rock          |
+| 248 | Pretty Woman                                            | Roy Orbison                                | Rock          |
+| 249 | Only the Lonely                                         | Roy Orbison                                | Rock          |
+| 250 | Loretta                                                 | Roy Orbison                                | Rock          |
+| 251 | Somebody to Love                                        | Jefferson Airplane                         | Rock          |
+| 252 | White Rabbit                                            | Jefferson Airplane                         | Rock          |
+| 253 | Break On Through                                        | The Doors                                  | Rock          |
+| 254 | Light My Fire                                           | The Doors                                  | Rock          |
+| 255 | Riders on the Storm                                     | The Doors                                  | Rock          |
+| 256 | Oye Como Va                                             | Santana                                    | Rock/Latin    |
+| 257 | Black Magic Woman                                       | Santana                                    | Rock          |
+| 258 | Europa (Earth?s Cry Heaven?s Smile)                     | Santana                                    | Rock          |
+| 259 | Smooth (Santana)                                        | Santana ft. Rob Thomas                     | Rock/Latin    |
+| 260 | Eruption                                                | Van Halen                                  | Rock          |
+| 261 | Hot for Teacher                                         | Van Halen                                  | Rock          |
+| 262 | Panama                                                  | Van Halen                                  | Rock          |
+| 263 | Running with the Devil                                  | Van Halen                                  | Rock          |
+| 264 | Ain?t Talkin? ?Bout Love                                | Van Halen                                  | Rock          |
+| 265 | God Bless the USA                                       | Lee Greenwood                              | Country       |
+| 266 | The Star-Spangled Banner (Jimi Hendrix)                 | Jimi Hendrix                               | Rock          |
+| 267 | Purple Haze                                             | Jimi Hendrix                               | Rock          |
+| 268 | All Along the Watchtower (Jimi Hendrix)                 | Jimi Hendrix                               | Rock          |
+| 269 | Voodoo Child (Slight Return)                            | Jimi Hendrix                               | Rock          |
+| 270 | Riders on the Storm (Live)                              | The Doors                                  | Rock          |
+| 271 | In-A-Gadda-Da-Vida                                      | Iron Butterfly                             | Rock          |
+| 272 | Paint It Black (Live)                                   | The Rolling Stones                         | Rock          |
+| 273 | Stray Cat Strut                                         | Stray Cats                                 | Rock          |
+| 274 | At Last                                                 | Etta James                                 | R&B           |
+| 275 | God Only Knows (Brian Wilson)                           | Brian Wilson                               | Pop           |
+| 276 | Forever Young                                           | Bob Dylan                                  | Folk          |
+| 277 | The Times They Are A-Changin?                           | Bob Dylan                                  | Folk          |
+| 278 | Blowin? in the Wind                                     | Bob Dylan                                  | Folk          |
+| 279 | Mr. Tambourine Man                                      | Bob Dylan                                  | Folk          |
+| 280 | It Ain?t Me Babe                                        | Bob Dylan                                  | Folk          |
+| 281 | Mack the Knife                                          | Bobby Darin                                | Jazz          |
+| 282 | Beyond the Sea                                          | Bobby Darin                                | Jazz          |
+| 283 | Sixteen Tons                                            | Tennessee Ernie Ford                       | Country       |
+| 284 | City of New Orleans                                     | Arlo Guthrie                               | Folk          |
+| 285 | The House of the Rising Sun                             | The Animals                                | Rock          |
+| 286 | Tears in Heaven                                         | Eric Clapton                               | Rock          |
+| 287 | Wonderful Tonight                                       | Eric Clapton                               | Rock          |
+| 288 | Lay Down Sally                                          | Eric Clapton                               | Rock          |
+| 289 | Layla (Eric Clapton unplugged)                          | Eric Clapton                               | Rock          |
+| 290 | A Whiter Shade of Pale                                  | Procul Harum                               | Rock          |
+| 291 | Sit Down, I Think I Love You                            | Buffalo Springfield                        | Rock          |
+| 292 | For What It?s Worth                                     | Buffalo Springfield                        | Rock          |
+| 293 | I?m a Believer                                          | The Monkees                                | Pop           |
+| 294 | Last Train to Clarksville                               | The Monkees                                | Pop           |
+| 295 | Light My Fire (Alternate Version)                       | The Doors                                  | Rock          |
+| 296 | Wish You Were Here                                      | Pink Floyd                                 | Rock          |
+| 297 | Money (Pink Floyd)                                      | Pink Floyd                                 | Rock          |
+| 298 | Another Brick in the Wall                               | Pink Floyd                                 | Rock          |
+| 299 | Comfortably Numb                                        | Pink Floyd                                 | Rock          |
+| 300 | Time (Pink Floyd)                                       | Pink Floyd                                 | Rock          |
+| 301 | Bridge Over Troubled Water (Live)                       | Simon & Garfunkel                          | Folk          |
+| 302 | Scarborough Fair/Canticle                               | Simon & Garfunkel                          | Folk          |
+| 303 | The Boxer                                               | Simon & Garfunkel                          | Folk          |
+| 304 | Cecilia                                                 | Simon & Garfunkel                          | Folk          |
+| 305 | Graceland                                               | Paul Simon                                 | Rock          |
+| 306 | Diamonds on the Soles of Her Shoes                      | Paul Simon                                 | Rock          |
+| 307 | Mrs. Robinson                                           | Simon & Garfunkel                          | Folk          |
+| 308 | The Sound of Silence (Disturbed version)                | Disturbed                                  | Rock          |
+| 309 | Eye of the Tiger                                        | Survivor                                   | Rock          |
+| 310 | Dream On                                                | Aerosmith                                  | Rock          |
+| 311 | Sweet Emotion                                           | Aerosmith                                  | Rock          |
+| 312 | Come Together                                           | The Beatles                                | Rock          |
+| 313 | Something (Beatles)                                     | The Beatles                                | Rock          |
+| 314 | Penny Lane                                              | The Beatles                                | Pop           |
+| 315 | Revolution 1                                            | The Beatles                                | Rock          |
+| 316 | The End                                                 | The Beatles                                | Rock          |
+| 317 | Blue Suede Shoes (Alternate)                            | Elvis Presley                              | Rock          |
+| 318 | It?s Now or Never                                       | Elvis Presley                              | Rock          |
+| 319 | Are You Lonesome Tonight                                | Elvis Presley                              | Rock          |
+| 320 | We Wish You a Merry Christmas (Bruce Springsteen)       | Bruce Springsteen                          | Rock          |
+| 321 | Jingle Bell Rock                                        | Bobby Helms                                | Rock          |
+| 322 | King of the Road                                        | Roger Miller                               | Country       |
+| 323 | Ring of Fire                                            | Johnny Cash                                | Country       |
+| 324 | Folsom Prison Blues                                     | Johnny Cash                                | Country       |
+| 325 | I Walk the Line                                         | Johnny Cash                                | Country       |
+| 326 | Wonderful Life                                          | Black                                      | Rock          |
+| 327 | Blackbird                                               | The Beatles                                | Folk          |
+| 328 | The Long and Winding Road                               | The Beatles                                | Pop           |
+| 329 | Twist and Shout                                         | The Beatles                                | Rock          |
+| 330 | She Loves You                                           | The Beatles                                | Pop           |
+| 331 | Sic Semper Tyrannis                                     | Los Lobos                                  | Rock          |
+| 332 | Paula Abdul ? ?Straight Up?                             | Paula Abdul                                | Pop           |
+| 333 | Como la Flor                                            | Selena                                     | Tejano        |
+| 334 | Bidi Bidi Bom Bom                                       | Selena                                     | Tejano        |
+| 335 | Dreaming of You                                         | Selena                                     | Pop           |
+| 336 | Let's Get It Started                                    | Black Eyed Peas                            | Pop           |
+| 337 | Where Is The Love?                                      | Black Eyed Peas                            | Pop           |
+| 338 | The Middle                                              | Jimmy Eat World                            | Alternative   |
+| 339 | Ocean Avenue                                            | Yellowcard                                 | Rock          |
+| 340 | My Hero                                                 | Foo Fighters                               | Rock          |
+| 341 | Everlong                                                | Foo Fighters                               | Rock          |
+| 342 | Learn to Fly                                            | Foo Fighters                               | Rock          |
+| 343 | Basket Case                                             | Green Day                                  | Rock          |
+| 344 | When I Come Around                                      | Green Day                                  | Rock          |
+| 345 | Holiday                                                 | Green Day                                  | Rock          |
+| 346 | Yesterday                                               | Beatles                                    | Pop           |
+| 347 | Hey Jude                                                | Beatles                                    | Pop           |
+| 348 | Imagine                                                 | John Lennon                                | Pop           |
+| 349 | Like a Rolling Stone (Rhino)                            | Bob Dylan                                  | Folk          |
+| 350 | Space Oddity (Kygo remix)                               | David Bowie                                | Electronic    |
+| 351 | My Girl (Acoustic)                                      | The Temptations                            | Soul          |
+| 352 | Great Balls of Fire (live)                              | Jerry Lee Lewis                            | Rock and Roll |
+| 353 | Tears in Heaven (Live)                                  | Eric Clapton                               | Rock          |
+| 354 | Lola                                                    | The Kinks                                  | Rock          |
+| 355 | Waterloo Sunset                                         | The Kinks                                  | Rock          |
+| 356 | Roundabout                                              | Yes                                        | Rock          |
+| 357 | Owner of a Lonely Heart                                 | Yes                                        | Rock          |
+| 358 | Take It To The Limit                                    | Eagles                                     | Rock          |
+| 359 | Already Gone                                            | Eagles                                     | Rock          |
+| 360 | New Kid in Town                                         | Eagles                                     | Rock          |
+| 361 | Stairway to Heaven (Live)                               | Led Zeppelin                               | Rock          |
+| 362 | Knockin' on Heaven's Door (Live)                        | Bob Dylan                                  | Folk          |
+| 363 | Brown Eyed Girl                                         | Van Morrison                               | Rock          |
+| 364 | Domino                                                  | Van Morrison                               | Rock          |
+| 365 | Moondance                                               | Van Morrison                               | Jazz          |
+| 366 | Be My Baby                                              | The Ronettes                               | Pop           |
+| 367 | Da Doo Ron Ron                                          | The Crystals                               | Pop           |
+| 368 | Will You Love Me Tomorrow                               | Shirelles                                  | Pop           |
+| 369 | Up on the Roof                                          | The Drifters                               | Soul          |
+| 370 | Love Train                                              | The O'Jays                                 | Soul          |
+| 371 | Love on the Brain                                       | Rihanna                                    | R&B           |
+| 372 | Real Love                                               | Mary J. Blige                              | R&B           |
+| 373 | Creep (Acoustic)                                        | Radiohead                                  | Alternative   |
+| 374 | Lovely Day                                              | Bill Withers                               | Soul          |
+| 375 | Ain?t No Sunshine                                       | Bill Withers                               | Soul          |
+| 376 | Lean on Me                                              | Bill Withers                               | Soul          |
+| 377 | Uncle John's Band                                       | Grateful Dead                              | Rock          |
+| 378 | Truckin'                                                | Grateful Dead                              | Rock          |
+| 379 | Buffalo Stance                                          | Neneh Cherry                               | Pop           |
+| 380 | Move Your Body                                          | Marshall Jefferson                         | House         |
+| 381 | Planet Rock                                             | Afrika Bambaataa & the Soulsonic Force     | Electro       |
+| 382 | Rock with You                                           | Michael Jackson                            | Pop           |
+| 383 | Let's Groove                                            | Earth, Wind & Fire                         | Funk          |
+| 384 | September                                               | Earth, Wind & Fire                         | Funk          |
+| 385 | Car Wash                                                | Rose Royce                                 | Funk          |
+| 386 | Jungle Boogie                                           | Kool & The Gang                            | Funk          |
+| 387 | Get Down On It                                          | Kool & The Gang                            | Funk          |
+| 388 | Don?t Leave Me This Way                                 | Thelma Houston                             | Disco         |
+| 389 | I?m Coming Out                                          | Diana Ross                                 | Disco         |
+| 390 | Ain't Nobody                                            | Chaka Khan                                 | Funk          |
+| 391 | We Are Family                                           | Sister Sledge                              | Disco         |
+| 392 | Bootylicious                                            | Destiny's Child                            | R&B           |
+| 393 | Survivor                                                | Destiny's Child                            | R&B           |
+| 394 | No Scrubs                                               | TLC                                        | R&B           |
+| 395 | Waterfalls                                              | TLC                                        | R&B           |
+| 396 | Millie Vanilli ? ?Girl You Know It's True?              | Milli Vanilli                              | Pop           |
+| 397 | Everybody (Backstreet's Back)                           | Backstreet Boys                            | Pop           |
+| 398 | All Too Well                                            | Taylor Swift                               | Pop           |
+| 399 | Blank Space                                             | Taylor Swift                               | Pop           |
+| 400 | Shake It Off                                            | Taylor Swift                               | Pop           |
+| 401 | Bad Blood                                               | Taylor Swift                               | Pop           |
+| 402 | Rolling in the Deep (Live)                              | Adele                                      | Pop           |
+| 403 | Love Me Do                                              | The Beatles                                | Pop           |
+| 404 | I Got You (I Feel Good)                                 | James Brown                                | Soul          |
+| 405 | Papa's Got a Brand New Bag                              | James Brown                                | Soul          |
+| 406 | Get Up (I Feel Like Being a) Sex Machine                | James Brown                                | Soul          |
+| 407 | Living in America                                       | James Brown                                | Soul          |
+| 408 | Signed, Sealed, Delivered (I'm Yours)                   | Stevie Wonder                              | R&B           |
+| 409 | Super Freak                                             | Rick James                                 | Funk          |
+| 410 | Give Up the Funk (Tear the Roof Off the Sucker)         | Parliament                                 | Funk          |
+| 411 | Atomic Dog                                              | George Clinton & Parliament-Funkadelic     | Funk          |
+| 412 | One Nation Under a Groove                               | Funkadelic                                 | Funk          |
+| 413 | Flash Light                                             | Parliament                                 | Funk          |
+| 414 | Jungle Funk                                             | Parliament                                 | Funk          |
+| 415 | Ain't No Half-Steppin'                                  | Big Daddy Kane                             | Hip-hop       |
+| 416 | Juicy                                                   | The Notorious B.I.G.                       | Rap           |
+| 417 | Hypnotize                                               | The Notorious B.I.G.                       | Rap           |
+| 418 | Fight the Power (Live)                                  | Public Enemy                               | Hip-hop       |
+| 419 | The Message                                             | Grandmaster Flash & Furious Five           | Hip-hop       |
+| 420 | Fight The Power (Instrumental)                          | Public Enemy                               | Hip-hop       |
+| 421 | Rapper's Delight                                        | Sugarhill Gang                             | Hip-hop       |
+| 422 | Planet Rock (Remix)                                     | Afrika Bambaataa & Soulsonic Force         | Electro       |
+| 423 | No Sleep Till Brooklyn                                  | Beastie Boys                               | Hip-hop       |
+| 424 | Sabotage                                                | Beastie Boys                               | Rock          |
+| 425 | Intergalactic                                           | Beastie Boys                               | Hip-hop       |
+| 426 | Written in the Stars                                    | Tinie Tempah ft. Eric Turner               | Rap/Pop       |
+| 427 | We Found Love                                           | Rihanna ft. Calvin Harris                  | Pop           |
+| 428 | Diamonds (Rihanna)                                      | Rihanna                                    | Pop           |
+| 429 | Umbrella (Rihanna)                                      | Rihanna ft. Jay-Z                          | Pop           |
+| 430 | Titanium (David Guetta)                                 | David Guetta ft. Sia                       | EDM           |
+| 431 | Don't Let Me Down                                       | The Chainsmokers ft. Daya                  | EDM           |
+| 432 | Havana                                                  | Camila Cabello                             | Pop           |
+| 433 | Señorita (Lopez ft Maluma)                              | Marc Anthony & Jennifer Lopez              | Latin         |
+| 434 | Dancing Queen (Live)                                    | ABBA                                       | Pop           |
+| 435 | Apologize (OneRepublic)                                 | OneRepublic                                | Pop           |
+| 436 | Counting Blue Cars                                      | Dishwalla                                  | Rock          |
+| 437 | No Rain                                                 | Blind Melon                                | Alternative   |
+| 438 | The Reason                                              | Hoobastank                                 | Alternative   |
+| 439 | Kryptonite                                              | 3 Doors Down                               | Rock          |
+| 440 | Wonderwall (Acoustic)                                   | Oasis                                      | Rock          |
+| 441 | She Will Be Loved                                       | Maroon 5                                   | Pop           |
+| 442 | This Love                                               | Maroon 5                                   | Pop           |
+| 443 | Sunday Morning                                          | Maroon 5                                   | Pop           |
+| 444 | Supermassive Black Hole (Live)                          | Muse                                       | Rock          |
+| 445 | Uprising (Muse)                                         | Muse                                       | Rock          |
+| 446 | Bliss                                                   | Muse                                       | Rock          |
+| 447 | Time is Running Out                                     | Muse                                       | Rock          |
+| 448 | Starlight (Muse)                                        | Muse                                       | Rock          |
+| 449 | Papa Was a Rollin' Stone                                | The Temptations                            | Soul          |
+| 450 | Ain't No Mountain High Enough                           | Marvin Gaye & Tammi Terrell                | Soul          |
+| 451 | I Heard It Through the Grapevine (Gladys Knight & Pips) | Gladys Knight & The Pips                   | Soul          |
+| 452 | Midnight Train to Georgia                               | Gladys Knight & The Pips                   | Soul          |
+| 453 | Tower of Power (Mighty Mighty Hop)                      | Tower of Power                             | Soul          |
+| 454 | Soul Man                                                | Sam & Dave                                 | Soul          |
+| 455 | Lean on Me                                              | Bill Withers                               | Soul          |
+| 456 | Sitting on the Dock of the Bay                          | Otis Redding                               | Soul          |
+| 457 | Natural Woman                                           | Aretha Franklin                            | Soul          |
+| 458 | Chain of Fools                                          | Aretha Franklin                            | Soul          |
+| 459 | I (Who Have Nothing)                                    | Ben E. King                                | Soul          |
+| 460 | Stand by Me                                             | Ben E. King                                | Soul          |
+| 461 | My Girl (Live)                                          | Temptations                                | Soul          |
+| 462 | The Tracks of My Tears                                  | Smokey Robinson & The Miracles             | Soul          |
+| 463 | Oye Como Va                                             | Santana                                    | Rock/Latin    |
+| 464 | Smooth                                                  | Santana ft. Rob Thomas                     | Rock          |
+| 465 | Black Magic Woman                                       | Santana                                    | Rock          |
+| 466 | Black Hole Sun                                          | Soundgarden                                | Rock          |
+| 467 | Lightning Crashes                                       | Live                                       | Rock          |
+| 468 | Jeremy                                                  | Pearl Jam                                  | Rock          |
+| 469 | Alive                                                   | Pearl Jam                                  | Rock          |
+| 470 | Breath                                                  | Pearl Jam                                  | Rock          |
+| 471 | Rome                                                    | Dropkick Murphys                           | Punk          |
+| 472 | American Pie                                            | Don McLean                                 | Folk          |
+| 473 | Mack the Knife (Live)                                   | Bobby Darin                                | Jazz          |
+| 474 | Drunk in Love                                           | Beyoncé ft. Jay-Z                          | R&B           |
+| 475 | 99 Problems                                             | Jay-Z                                      | Rap           |
+| 476 | Empire State of Mind                                    | Jay-Z & Alicia Keys                        | Hip-hop       |
+| 477 | Numb (Jay-Z & Linkin Park)                              | Jay-Z & Linkin Park                        | Hip-hop/Rock  |
+| 478 | Girls & Boys                                            | Blur                                       | Rock          |
+| 479 | Song 2                                                  | Blur                                       | Rock          |
+| 480 | Parklife                                                | Blur                                       | Rock          |
+| 481 | Conversely                                              | Ciara                                      | R&B           |
+| 482 | Good Good                                               | Usher                                      | R&B           |
+| 483 | Confessions Part II                                     | Usher                                      | R&B           |
+| 484 | Pump It                                                 | Black Eyed Peas                            | Pop           |
+| 485 | The Time (Dirty Bit)                                    | Black Eyed Peas                            | Pop           |
+| 486 | Where Is the Love (Live)                                | Black Eyed Peas                            | Pop           |
+| 487 | My Humps                                                | Black Eyed Peas                            | Pop           |
+| 488 | Burn                                                    | Usher                                      | R&B           |
+| 489 | Confessions (Part I)                                    | Usher                                      | R&B           |
+| 490 | Yeah! (Remix)                                           | Usher ft. Ludacris & Lil Jon               | R&B           |
+| 491 | Let?s Get It Started (Live)                             | Black Eyed Peas                            | Pop           |
+| 492 | Wherever I May Roam                                     | Metallica                                  | Metal         |
+| 493 | Fade To Black                                           | Metallica                                  | Metal         |
+| 494 | For Whom the Bell Tolls                                 | Metallica                                  | Metal         |
+| 495 | Master of Puppets (Live)                                | Metallica                                  | Metal         |
+| 496 | Killing In The Name (Live)                              | Rage Against the Machine                   | Rock          |
+| 497 | Bullet in the Head                                      | Rage Against the Machine                   | Rock          |
+| 498 | Hyphy (Mistah F.A.B.)                                   | Mistah F.A.B.                              | Hip-hop       |
+| 499 | Cho Ka Ka O (Original)                                  | Mistah F.A.B.                              | Rap           |
+| 500 | Til I Collapse                                          | Eminem                                     | Rap           |
+| 501 | Not Like Us                                             | Kendrick Lamar                             | Hip Hop       |
++-----+---------------------------------------------------------+--------------------------------------------+---------------+
