@@ -1,30 +1,24 @@
-# Music Player (Python)
+## Purpose
 
-A desktop music player application developed as a collaborative school project using Python.
+This project helped me strengthen my understanding of Python programming, database integration, GUI development, and collaborative software development.
+Music Recommendation App
 
-## Overview
+A simple music application built using Python, Tkinter and MySQL.
 
-The objective of this project was to design and implement a graphical music player capable of searching songs and recommending similar tracks based on user input.
+Features
+- Search songs
+- Add songs
+- Edit songs
+- Browse all songs
+- Recommend similar songs based on artist or genre
 
-## Features
-
-- Graphical user interface (Tkinter)
-- Search by title
-- Search by artist
-- Search by genre
-- Music recommendation system
-- MySQL database integration
-
-## Technologies
-
+Technologies
 - Python
 - Tkinter
 - MySQL
 
-## My Contribution
-
-I contributed to the design and development of the application, including Python programming, user interface implementation, search functionality, and recommendation logic.
-
-## Purpose
-
-This project helped me strengthen my understanding of Python programming, database integration, GUI development, and collaborative software development.
+How to run
+1. Install mysql-connector-python
+2. Create song_db
+3. Run set_db.py
+4. Run main.py
