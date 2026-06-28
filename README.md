@@ -1,5 +1,5 @@
-Music Recommendation App
-## THIS WAS A TEAM PROJECT AND ONLY THE BASIC LOGIC CODE WAS HANDLED BY ME##
+##Music Recommendation App
+## THIS WAS A TEAM PROJECT AND ONLY THE BASIC LOGIC CODE WAS HANDLED BY ME
 
 A desktop music management application built using Python, Tkinter, and MySQL.
 The project focuses on database handling, GUI development, and rule-based recommendation logic.
